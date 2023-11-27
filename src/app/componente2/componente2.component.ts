@@ -10,6 +10,6 @@ export class Componente2Component implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.title = 'secondo component';
+    this.title = 'ciao comp2';
   }
 }

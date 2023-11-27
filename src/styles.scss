@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
 
 *,
 *::before,
@@ -9,6 +9,21 @@
 }
 
 body {
-  background-color: #111;
-  color: #eee;
+  text-align: center;
+}
+
+.text-yellow {
+  color: #f6fc07;
+}
+
+.text-brown {
+  color: #9b2026;
+}
+
+.text-cyan {
+  color: cyan;
+}
+
+.fw-500 {
+  font-weight: 500;
 }
